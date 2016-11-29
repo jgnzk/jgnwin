@@ -1,5 +1,7 @@
-﻿//背景主色196, 231, 239   英文字体Georgia   中文微软雅黑
+﻿//属性：背景主色196, 231, 239   英文字体Georgia   中文微软雅黑 
 
+
+//修改时间2016年11月29日15:03:01       修改显示日期控件为DateTimePicker(可直接选择日期)
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,7 +51,7 @@ namespace 生殖中心病例管理系统
             listView_CaseRegistration.Columns.Add("诊断", 100, HorizontalAlignment.Center);
 
             listView_CaseRegistration.Columns.Add("周期", 160, HorizontalAlignment.Center);
-           
+
             listView_CaseRegistration.Columns.Add("护士", 100, HorizontalAlignment.Center);
             for (int i = 0; i < 10; i++)
             {
@@ -57,17 +59,17 @@ namespace 生殖中心病例管理系统
             }
            
             //添加表格内容
-            for (int i = 0; i < 6; i++)
-            {
-                ListViewItem item = new ListViewItem();
-                item.SubItems.Clear();
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    ListViewItem item = new ListViewItem();
+            //    item.SubItems.Clear();
 
-                item.SubItems[0].Text = "日期" + i.ToString();
-                item.SubItems.Add(i.ToString());
-                item.SubItems.Add((i + 7).ToString());
-                item.SubItems.Add((i * i).ToString());
-                listView_CaseRegistration.Items.Add(item);
-            }
+            //    item.SubItems[0].Text = "日期" + i.ToString();
+            //    item.SubItems.Add(i.ToString());
+            //    item.SubItems.Add((i + 7).ToString());
+            //    item.SubItems.Add((i * i).ToString());
+            //    listView_CaseRegistration.Items.Add(item);
+            //}
             
 
         }

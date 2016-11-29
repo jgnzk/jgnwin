@@ -11,3 +11,4 @@ F:\新的\生殖中心病例管理系统\生殖中心病例管理系统\obj\Debu
 F:\新的\生殖中心病例管理系统\生殖中心病例管理系统\obj\Debug\生殖中心病例管理系统.登录界面.resources
 F:\新的\生殖中心病例管理系统\生殖中心病例管理系统\obj\Debug\生殖中心病例管理系统.男方病例form.resources
 F:\新的\生殖中心病例管理系统\生殖中心病例管理系统\obj\Debug\生殖中心病例管理系统.查询界面.resources
+F:\新的\生殖中心病例管理系统\生殖中心病例管理系统\obj\Debug\生殖中心病例管理系统.csprojResolveAssemblyReference.cache

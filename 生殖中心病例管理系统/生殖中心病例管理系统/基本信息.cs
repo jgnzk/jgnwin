@@ -25,7 +25,7 @@ namespace 生殖中心病例管理系统
 
         private void date_MouseDown(object sender, MouseEventArgs e)
         {
-            date.Text = DateTime.Now.ToString("D");
+            date.Text = DateTime.Now.ToString("D");//单击显示当前时间
         }
     }
 }
