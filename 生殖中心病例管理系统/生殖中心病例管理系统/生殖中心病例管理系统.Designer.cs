@@ -1,6 +1,6 @@
 ﻿namespace 生殖中心病例管理系统
 {
-    partial class mainInterface
+    partial  class mainInterface
     {
         /// <summary>
         /// Required designer variable.
@@ -28,312 +28,362 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainInterface));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.新建病例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.女方病例ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.新建NToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.打开OToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.保存SToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.打印PToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.剪切UToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.复制CToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.粘贴PToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.帮助LToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.components = new System.ComponentModel.Container();
+            this.状态栏 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.时间_tool = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.listView_CaseRegistration = new System.Windows.Forms.ListView();
-            this.toolStrip3 = new System.Windows.Forms.ToolStrip();
-            this.男方病例but = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
+            this.扫描_but = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.查询_but = new System.Windows.Forms.Button();
+            this.新增_but = new System.Windows.Forms.Button();
+            this.病例_but = new System.Windows.Forms.Button();
+            this.打印_but = new System.Windows.Forms.Button();
+            this.流程_but = new System.Windows.Forms.Button();
+            this.记录单_but = new System.Windows.Forms.Button();
+            this.待办_but = new System.Windows.Forms.Button();
+            this.同意书_but = new System.Windows.Forms.Button();
+            this.医嘱_but = new System.Windows.Forms.Button();
+            this.监测_but = new System.Windows.Forms.Button();
+            this.窗体容器_panel = new System.Windows.Forms.Panel();
+            this.表格_listView = new System.Windows.Forms.ListView();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.状态栏.SuspendLayout();
+            this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.窗体容器_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // 状态栏
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.新建病例ToolStripMenuItem,
-            this.女方病例ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1346, 25);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            this.状态栏.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.状态栏.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabel1,
+            this.时间_tool,
+            this.toolStripLabel3});
+            this.状态栏.Location = new System.Drawing.Point(0, 629);
+            this.状态栏.Name = "状态栏";
+            this.状态栏.Size = new System.Drawing.Size(1362, 25);
+            this.状态栏.TabIndex = 7;
+            this.状态栏.Text = "toolStrip1";
             // 
-            // 新建病例ToolStripMenuItem
+            // toolStripLabel1
             // 
-            this.新建病例ToolStripMenuItem.Name = "新建病例ToolStripMenuItem";
-            this.新建病例ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.新建病例ToolStripMenuItem.Text = "新建病例";
+            this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(274, 22);
+            this.toolStripLabel1.Text = "     北京杰格纳科技有限公司（0373-3041935）  ";
             // 
-            // 女方病例ToolStripMenuItem
+            // 时间_tool
             // 
-            this.女方病例ToolStripMenuItem.Name = "女方病例ToolStripMenuItem";
-            this.女方病例ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.女方病例ToolStripMenuItem.Text = "女方病例";
+            this.时间_tool.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.时间_tool.Name = "时间_tool";
+            this.时间_tool.Size = new System.Drawing.Size(0, 22);
             // 
-            // toolStrip1
+            // toolStripLabel3
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.新建NToolStripButton,
-            this.打开OToolStripButton,
-            this.保存SToolStripButton,
-            this.打印PToolStripButton,
-            this.toolStripSeparator,
-            this.剪切UToolStripButton,
-            this.复制CToolStripButton,
-            this.粘贴PToolStripButton,
-            this.toolStripSeparator1,
-            this.帮助LToolStripButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1346, 25);
-            this.toolStrip1.TabIndex = 1;
-            this.toolStrip1.Text = "toolStrip1";
+            this.toolStripLabel3.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(68, 22);
+            this.toolStripLabel3.Text = "当前时间：";
             // 
-            // 新建NToolStripButton
+            // timer1
             // 
-            this.新建NToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.新建NToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("新建NToolStripButton.Image")));
-            this.新建NToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.新建NToolStripButton.Name = "新建NToolStripButton";
-            this.新建NToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.新建NToolStripButton.Text = "新建(&N)";
-            // 
-            // 打开OToolStripButton
-            // 
-            this.打开OToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.打开OToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("打开OToolStripButton.Image")));
-            this.打开OToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.打开OToolStripButton.Name = "打开OToolStripButton";
-            this.打开OToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.打开OToolStripButton.Text = "打开(&O)";
-            // 
-            // 保存SToolStripButton
-            // 
-            this.保存SToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.保存SToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("保存SToolStripButton.Image")));
-            this.保存SToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.保存SToolStripButton.Name = "保存SToolStripButton";
-            this.保存SToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.保存SToolStripButton.Text = "保存(&S)";
-            // 
-            // 打印PToolStripButton
-            // 
-            this.打印PToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.打印PToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("打印PToolStripButton.Image")));
-            this.打印PToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.打印PToolStripButton.Name = "打印PToolStripButton";
-            this.打印PToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.打印PToolStripButton.Text = "打印(&P)";
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // 剪切UToolStripButton
-            // 
-            this.剪切UToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.剪切UToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("剪切UToolStripButton.Image")));
-            this.剪切UToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.剪切UToolStripButton.Name = "剪切UToolStripButton";
-            this.剪切UToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.剪切UToolStripButton.Text = "剪切(&U)";
-            // 
-            // 复制CToolStripButton
-            // 
-            this.复制CToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.复制CToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("复制CToolStripButton.Image")));
-            this.复制CToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.复制CToolStripButton.Name = "复制CToolStripButton";
-            this.复制CToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.复制CToolStripButton.Text = "复制(&C)";
-            // 
-            // 粘贴PToolStripButton
-            // 
-            this.粘贴PToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.粘贴PToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("粘贴PToolStripButton.Image")));
-            this.粘贴PToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.粘贴PToolStripButton.Name = "粘贴PToolStripButton";
-            this.粘贴PToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.粘贴PToolStripButton.Text = "粘贴(&P)";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // 帮助LToolStripButton
-            // 
-            this.帮助LToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.帮助LToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("帮助LToolStripButton.Image")));
-            this.帮助LToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.帮助LToolStripButton.Name = "帮助LToolStripButton";
-            this.帮助LToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.帮助LToolStripButton.Text = "帮助(&L)";
-            // 
-            // toolStrip2
-            // 
-            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.toolStrip2.Location = new System.Drawing.Point(0, 519);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1346, 25);
-            this.toolStrip2.TabIndex = 2;
-            this.toolStrip2.Text = "toolStrip2";
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // splitContainer1
             // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 50);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.AutoScroll = true;
-            this.splitContainer1.Panel1.CausesValidation = false;
+            this.splitContainer1.Panel1.AutoScrollMargin = new System.Drawing.Size(10, 10);
+            this.splitContainer1.Panel1.AutoScrollMinSize = new System.Drawing.Size(1, 10);
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
+            this.splitContainer1.Panel1.Controls.Add(this.panel1);
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1346, 469);
-            this.splitContainer1.SplitterDistance = 249;
-            this.splitContainer1.TabIndex = 3;
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
+            this.splitContainer1.Panel2.AutoScroll = true;
+            this.splitContainer1.Panel2.Controls.Add(this.窗体容器_panel);
+            this.splitContainer1.Panel2.Controls.Add(this.pictureBox13);
+            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
+            this.splitContainer1.Size = new System.Drawing.Size(1362, 629);
+            this.splitContainer1.SplitterDistance = 460;
+            this.splitContainer1.SplitterWidth = 1;
+            this.splitContainer1.TabIndex = 9;
+            this.splitContainer1.TabStop = false;
             // 
-            // splitContainer2
+            // 扫描_but
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
+            this.扫描_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.扫描_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.扫描;
+            this.扫描_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.扫描_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.扫描_but.Location = new System.Drawing.Point(296, 19);
+            this.扫描_but.Name = "扫描_but";
+            this.扫描_but.Size = new System.Drawing.Size(131, 129);
+            this.扫描_but.TabIndex = 2;
+            this.扫描_but.Text = "   ";
+            this.扫描_but.UseVisualStyleBackColor = true;
             // 
-            // splitContainer2.Panel1
+            // pictureBox1
             // 
-            this.splitContainer2.Panel1.CausesValidation = false;
-            this.splitContainer2.Panel1.Controls.Add(this.listView_CaseRegistration);
-            this.splitContainer2.Panel1.Controls.Add(this.toolStrip3);
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(167)))), ((int)(((byte)(186)))));
+            this.pictureBox1.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.功能;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(458, 65);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
-            // splitContainer2.Panel2
+            // 查询_but
             // 
-            this.splitContainer2.Panel2.CausesValidation = false;
-            this.splitContainer2.Panel2.Controls.Add(this.button4);
-            this.splitContainer2.Panel2.Controls.Add(this.男方病例but);
-            this.splitContainer2.Panel2.Controls.Add(this.button2);
-            this.splitContainer2.Panel2.Controls.Add(this.button3);
-            this.splitContainer2.Panel2.Controls.Add(this.button1);
-            this.splitContainer2.Size = new System.Drawing.Size(1093, 469);
-            this.splitContainer2.SplitterDistance = 724;
-            this.splitContainer2.TabIndex = 0;
-            this.splitContainer2.TabStop = false;
+            this.查询_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.查询_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.查询;
+            this.查询_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.查询_but.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.查询_but.FlatAppearance.BorderSize = 2;
+            this.查询_but.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.查询_but.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.查询_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.查询_but.Location = new System.Drawing.Point(22, 19);
+            this.查询_but.Name = "查询_but";
+            this.查询_but.Size = new System.Drawing.Size(131, 129);
+            this.查询_but.TabIndex = 0;
+            this.查询_but.Text = "   ";
+            this.查询_but.UseVisualStyleBackColor = true;
+            this.查询_but.Click += new System.EventHandler(this.查询_but_Click);
             // 
-            // listView_CaseRegistration
+            // 新增_but
             // 
-            this.listView_CaseRegistration.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
-            this.listView_CaseRegistration.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView_CaseRegistration.Location = new System.Drawing.Point(0, 25);
-            this.listView_CaseRegistration.Name = "listView_CaseRegistration";
-            this.listView_CaseRegistration.Size = new System.Drawing.Size(724, 444);
-            this.listView_CaseRegistration.TabIndex = 2;
-            this.listView_CaseRegistration.UseCompatibleStateImageBehavior = false;
-            this.listView_CaseRegistration.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.新增_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.新增_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.新增;
+            this.新增_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.新增_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.新增_but.Location = new System.Drawing.Point(22, 154);
+            this.新增_but.Name = "新增_but";
+            this.新增_but.Size = new System.Drawing.Size(131, 129);
+            this.新增_but.TabIndex = 3;
+            this.新增_but.Text = "   ";
+            this.新增_but.UseVisualStyleBackColor = true;
+            this.新增_but.Click += new System.EventHandler(this.新增_but_Click);
             // 
-            // toolStrip3
+            // 病例_but
             // 
-            this.toolStrip3.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip3.Name = "toolStrip3";
-            this.toolStrip3.Size = new System.Drawing.Size(724, 25);
-            this.toolStrip3.TabIndex = 1;
-            this.toolStrip3.Text = "toolStrip3";
+            this.病例_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.病例_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.病历;
+            this.病例_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.病例_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.病例_but.Location = new System.Drawing.Point(22, 289);
+            this.病例_but.Name = "病例_but";
+            this.病例_but.Size = new System.Drawing.Size(131, 129);
+            this.病例_but.TabIndex = 6;
+            this.病例_but.Text = "   ";
+            this.病例_but.UseVisualStyleBackColor = true;
             // 
-            // 男方病例but
+            // 打印_but
             // 
-            this.男方病例but.Location = new System.Drawing.Point(68, 134);
-            this.男方病例but.Name = "男方病例but";
-            this.男方病例but.Size = new System.Drawing.Size(73, 23);
-            this.男方病例but.TabIndex = 2;
-            this.男方病例but.Text = "男方病例";
-            this.男方病例but.UseVisualStyleBackColor = true;
-            this.男方病例but.Click += new System.EventHandler(this.男方病例_Click);
+            this.打印_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.打印_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.打印;
+            this.打印_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.打印_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.打印_but.Location = new System.Drawing.Point(159, 19);
+            this.打印_but.Name = "打印_but";
+            this.打印_but.Size = new System.Drawing.Size(131, 129);
+            this.打印_but.TabIndex = 1;
+            this.打印_but.Text = "   ";
+            this.打印_but.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // 流程_but
             // 
-            this.button2.Location = new System.Drawing.Point(68, 93);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 25);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "女方病例";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.流程_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.流程_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.流程;
+            this.流程_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.流程_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.流程_but.Location = new System.Drawing.Point(22, 424);
+            this.流程_but.Name = "流程_but";
+            this.流程_but.Size = new System.Drawing.Size(131, 129);
+            this.流程_but.TabIndex = 9;
+            this.流程_but.Text = "   ";
+            this.流程_but.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // 记录单_but
             // 
-            this.button3.Location = new System.Drawing.Point(167, 51);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "打印患者信息";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button1_Click);
+            this.记录单_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.记录单_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.记录单;
+            this.记录单_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.记录单_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.记录单_but.Location = new System.Drawing.Point(296, 154);
+            this.记录单_but.Name = "记录单_but";
+            this.记录单_but.Size = new System.Drawing.Size(131, 129);
+            this.记录单_but.TabIndex = 5;
+            this.记录单_but.Text = "   ";
+            this.记录单_but.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // 待办_but
             // 
-            this.button1.Location = new System.Drawing.Point(67, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "新增患者";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.待办_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.待办_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.待办;
+            this.待办_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.待办_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.待办_but.Location = new System.Drawing.Point(159, 424);
+            this.待办_but.Name = "待办_but";
+            this.待办_but.Size = new System.Drawing.Size(131, 129);
+            this.待办_but.TabIndex = 10;
+            this.待办_but.Text = "   ";
+            this.待办_but.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // 同意书_but
             // 
-            this.button4.Location = new System.Drawing.Point(66, 175);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "查询";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.同意书_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.同意书_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.同意书;
+            this.同意书_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.同意书_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.同意书_but.Location = new System.Drawing.Point(159, 154);
+            this.同意书_but.Name = "同意书_but";
+            this.同意书_but.Size = new System.Drawing.Size(131, 129);
+            this.同意书_but.TabIndex = 4;
+            this.同意书_but.Text = "   ";
+            this.同意书_but.UseVisualStyleBackColor = true;
+            // 
+            // 医嘱_but
+            // 
+            this.医嘱_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.医嘱_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.医嘱;
+            this.医嘱_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.医嘱_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.医嘱_but.Location = new System.Drawing.Point(159, 289);
+            this.医嘱_but.Name = "医嘱_but";
+            this.医嘱_but.Size = new System.Drawing.Size(131, 129);
+            this.医嘱_but.TabIndex = 7;
+            this.医嘱_but.Text = "   ";
+            this.医嘱_but.UseVisualStyleBackColor = true;
+            // 
+            // 监测_but
+            // 
+            this.监测_but.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.监测_but.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.检测;
+            this.监测_but.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.监测_but.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.监测_but.Location = new System.Drawing.Point(296, 289);
+            this.监测_but.Name = "监测_but";
+            this.监测_but.Size = new System.Drawing.Size(131, 129);
+            this.监测_but.TabIndex = 8;
+            this.监测_but.Text = "   ";
+            this.监测_but.UseVisualStyleBackColor = true;
+            // 
+            // 窗体容器_panel
+            // 
+            this.窗体容器_panel.AutoScroll = true;
+            this.窗体容器_panel.Controls.Add(this.label1);
+            this.窗体容器_panel.Controls.Add(this.表格_listView);
+            this.窗体容器_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.窗体容器_panel.Location = new System.Drawing.Point(0, 65);
+            this.窗体容器_panel.Name = "窗体容器_panel";
+            this.窗体容器_panel.Size = new System.Drawing.Size(899, 562);
+            this.窗体容器_panel.TabIndex = 5;
+            // 
+            // 表格_listView
+            // 
+            this.表格_listView.Alignment = System.Windows.Forms.ListViewAlignment.SnapToGrid;
+            this.表格_listView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.表格_listView.Location = new System.Drawing.Point(0, 0);
+            this.表格_listView.Name = "表格_listView";
+            this.表格_listView.Size = new System.Drawing.Size(899, 562);
+            this.表格_listView.TabIndex = 3;
+            this.表格_listView.UseCompatibleStateImageBehavior = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(167)))), ((int)(((byte)(186)))));
+            this.pictureBox13.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.功能;
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(899, 65);
+            this.pictureBox13.TabIndex = 4;
+            this.pictureBox13.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(0, 249);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 17);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "<";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.UseCompatibleTextRendering = true;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.AutoScrollMargin = new System.Drawing.Size(100, 100);
+            this.panel1.AutoSize = true;
+            this.panel1.Controls.Add(this.打印_but);
+            this.panel1.Controls.Add(this.扫描_but);
+            this.panel1.Controls.Add(this.监测_but);
+            this.panel1.Controls.Add(this.医嘱_but);
+            this.panel1.Controls.Add(this.查询_but);
+            this.panel1.Controls.Add(this.同意书_but);
+            this.panel1.Controls.Add(this.新增_but);
+            this.panel1.Controls.Add(this.待办_but);
+            this.panel1.Controls.Add(this.病例_but);
+            this.panel1.Controls.Add(this.记录单_but);
+            this.panel1.Controls.Add(this.流程_but);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 65);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(458, 562);
+            this.panel1.TabIndex = 8;
             // 
             // mainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1346, 544);
+            this.ClientSize = new System.Drawing.Size(1362, 654);
             this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.toolStrip2);
-            this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.状态栏);
+            this.IsMdiContainer = true;
             this.Name = "mainInterface";
-            this.Text = "生殖中心病例管理系统";
+            this.Text = "生殖中心病历管理系统      授权用户：新乡市中心医院生殖医疗中心（1.1.1.1）";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.Resize += new System.EventHandler(this.mainInterface_Resize);
+            this.状态栏.ResumeLayout(false);
+            this.状态栏.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel1.PerformLayout();
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            this.splitContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.窗体容器_panel.ResumeLayout(false);
+            this.窗体容器_panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,30 +391,30 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 新建病例ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 女方病例ToolStripMenuItem;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton 新建NToolStripButton;
-        private System.Windows.Forms.ToolStripButton 打开OToolStripButton;
-        private System.Windows.Forms.ToolStripButton 保存SToolStripButton;
-        private System.Windows.Forms.ToolStripButton 打印PToolStripButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripButton 剪切UToolStripButton;
-        private System.Windows.Forms.ToolStripButton 复制CToolStripButton;
-        private System.Windows.Forms.ToolStripButton 粘贴PToolStripButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton 帮助LToolStripButton;
-        private System.Windows.Forms.ToolStrip toolStrip2;
+        private System.Windows.Forms.ToolStrip 状态栏;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripLabel 时间_tool;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
+        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.ListView listView_CaseRegistration;
-        private System.Windows.Forms.ToolStrip toolStrip3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        public System.Windows.Forms.Button 男方病例but;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button 扫描_but;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button 查询_but;
+        private System.Windows.Forms.Button 新增_but;
+        private System.Windows.Forms.Button 病例_but;
+        private System.Windows.Forms.Button 打印_but;
+        private System.Windows.Forms.Button 流程_but;
+        private System.Windows.Forms.Button 记录单_but;
+        private System.Windows.Forms.Button 待办_but;
+        private System.Windows.Forms.Button 同意书_but;
+        private System.Windows.Forms.Button 医嘱_but;
+        private System.Windows.Forms.Button 监测_but;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Panel 窗体容器_panel;
+        public System.Windows.Forms.ListView 表格_listView;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
+
 
     }
 }

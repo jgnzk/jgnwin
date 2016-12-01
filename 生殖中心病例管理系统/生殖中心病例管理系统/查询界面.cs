@@ -37,5 +37,10 @@ namespace 生殖中心病例管理系统
             jian.Visible = true;
          
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

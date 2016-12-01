@@ -12,6 +12,21 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,6 +37,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +47,25 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -46,6 +81,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="bin\存储.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>存储.resx</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -71,11 +111,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="基本信息.cs">
+    <Compile Include="新增患者.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="基本信息.Designer.cs">
-      <DependentUpon>基本信息.cs</DependentUpon>
+    <Compile Include="新增患者.Designer.cs">
+      <DependentUpon>新增患者.cs</DependentUpon>
     </Compile>
     <Compile Include="女方病例.cs">
       <SubType>Form</SubType>
@@ -89,6 +129,10 @@
     <Compile Include="生殖中心病例管理系统.Designer.cs">
       <DependentUpon>生殖中心病例管理系统.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="bin\存储.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>存储.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="查询界面.resx">
       <DependentUpon>查询界面.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,8 +147,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="基本信息.resx">
-      <DependentUpon>基本信息.cs</DependentUpon>
+    <EmbeddedResource Include="新增患者.resx">
+      <DependentUpon>新增患者.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="女方病例.resx">
       <DependentUpon>女方病例.cs</DependentUpon>
@@ -112,6 +156,7 @@
     <EmbeddedResource Include="生殖中心病例管理系统.resx">
       <DependentUpon>生殖中心病例管理系统.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -130,6 +175,150 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\jian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Q3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Q4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20161130104951.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20161130114600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查询.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病历.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\待办.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\记录单.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\检测.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\流程.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\扫描.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\同意书.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\医嘱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20161130124857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病例信息.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\功能.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ图片20161130134152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\电话.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\男.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\女.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\扫描1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\读身份证.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\三证扫描.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\三证审核.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\指纹登记.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病例信息1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\功能1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

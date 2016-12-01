@@ -39,30 +39,30 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.名字_textbox = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.jian = new System.Windows.Forms.PictureBox();
             this.jia = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.jian = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jian)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.jia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jian)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +91,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(335, 172);
+            this.label3.Location = new System.Drawing.Point(300, 172);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 14);
             this.label3.TabIndex = 0;
@@ -121,7 +121,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(350, 83);
+            this.label6.Location = new System.Drawing.Point(300, 83);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 14);
             this.label6.TabIndex = 0;
@@ -131,7 +131,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(335, 209);
+            this.label7.Location = new System.Drawing.Point(300, 209);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 14);
             this.label7.TabIndex = 0;
@@ -151,7 +151,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(335, 246);
+            this.label9.Location = new System.Drawing.Point(300, 246);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(67, 14);
             this.label9.TabIndex = 0;
@@ -167,69 +167,86 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "丈夫：";
             // 
-            // textBox1
+            // 名字_textbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(144, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 21);
-            this.textBox1.TabIndex = 1;
+            this.名字_textbox.Location = new System.Drawing.Point(144, 34);
+            this.名字_textbox.MaxLength = 10;
+            this.名字_textbox.Name = "名字_textbox";
+            this.名字_textbox.Size = new System.Drawing.Size(128, 21);
+            this.名字_textbox.TabIndex = 1;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(144, 169);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(185, 21);
+            this.textBox3.Size = new System.Drawing.Size(126, 21);
             this.textBox3.TabIndex = 1;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(144, 206);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(185, 21);
+            this.textBox4.Size = new System.Drawing.Size(126, 21);
             this.textBox4.TabIndex = 1;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(144, 243);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(185, 21);
+            this.textBox5.Size = new System.Drawing.Size(126, 21);
             this.textBox5.TabIndex = 1;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(393, 243);
+            this.textBox6.Location = new System.Drawing.Point(358, 243);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(185, 21);
+            this.textBox6.Size = new System.Drawing.Size(126, 21);
             this.textBox6.TabIndex = 1;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(393, 206);
+            this.textBox7.Location = new System.Drawing.Point(358, 206);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(185, 21);
+            this.textBox7.Size = new System.Drawing.Size(126, 21);
             this.textBox7.TabIndex = 1;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(393, 169);
+            this.textBox8.Location = new System.Drawing.Point(358, 169);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(185, 21);
+            this.textBox8.Size = new System.Drawing.Size(126, 21);
             this.textBox8.TabIndex = 1;
+            this.textBox8.Text = "410323199603049574";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(144, 80);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(128, 21);
+            this.dateTimePicker1.TabIndex = 4;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(343, 80);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(114, 21);
+            this.dateTimePicker2.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(168)))), ((int)(((byte)(209)))));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(112)))), ((int)(((byte)(192)))));
+            this.button1.BackgroundImage = global::生殖中心病例管理系统.Properties.Resources.查1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Font = new System.Drawing.Font("宋体", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("宋体", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.ForeColor = System.Drawing.Color.SandyBrown;
             this.button1.Location = new System.Drawing.Point(0, 154);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(623, 61);
+            this.button1.Size = new System.Drawing.Size(514, 64);
             this.button1.TabIndex = 2;
-            this.button1.Text = "     查";
+            this.button1.Text = "    ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox4
             // 
@@ -250,6 +267,18 @@
             this.pictureBox3.Size = new System.Drawing.Size(41, 31);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            // 
+            // jian
+            // 
+            this.jian.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("jian.BackgroundImage")));
+            this.jian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.jian.Location = new System.Drawing.Point(144, 117);
+            this.jian.Name = "jian";
+            this.jian.Size = new System.Drawing.Size(41, 31);
+            this.jian.TabIndex = 3;
+            this.jian.TabStop = false;
+            this.jian.Visible = false;
+            this.jian.Click += new System.EventHandler(this.jian_Click);
             // 
             // jia
             // 
@@ -292,38 +321,12 @@
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;
             // 
-            // jian
-            // 
-            this.jian.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("jian.BackgroundImage")));
-            this.jian.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.jian.Location = new System.Drawing.Point(144, 117);
-            this.jian.Name = "jian";
-            this.jian.Size = new System.Drawing.Size(41, 31);
-            this.jian.TabIndex = 3;
-            this.jian.TabStop = false;
-            this.jian.Visible = false;
-            this.jian.Click += new System.EventHandler(this.jian_Click);
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(144, 80);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(185, 21);
-            this.dateTimePicker1.TabIndex = 4;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(393, 79);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(185, 21);
-            this.dateTimePicker2.TabIndex = 5;
-            // 
             // 查询界面
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
-            this.ClientSize = new System.Drawing.Size(623, 215);
+            this.ClientSize = new System.Drawing.Size(514, 218);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
@@ -337,7 +340,7 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.名字_textbox);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
@@ -356,14 +359,13 @@
             this.MaximizeBox = false;
             this.Name = "查询界面";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "查询";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jian)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.jian)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -381,7 +383,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox 名字_textbox;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
