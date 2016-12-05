@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>发布\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -49,7 +49,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
@@ -64,9 +65,10 @@
   <PropertyGroup>
     <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -157,6 +159,230 @@
       <DependentUpon>生殖中心病例管理系统.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\System.Xml.IHasXmlNode.datasource" />
+    <None Include="Properties\DataSources\System.Xml.IXmlLineInfo.datasource" />
+    <None Include="Properties\DataSources\System.Xml.IXmlNamespaceResolver.datasource" />
+    <None Include="Properties\DataSources\System.Xml.NameTable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.IXmlSchemaInfo.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.ValidationEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.ValidationEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlAtomicValue.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchema.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAll.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAnnotated.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAnnotation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAny.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAnyAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAppInfo.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAttributeGroup.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaAttributeGroupRef.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaChoice.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaCollection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaCollectionEnumerator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaCompilationSettings.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaComplexContent.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaComplexContentExtension.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaComplexContentRestriction.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaComplexType.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaContent.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaContentModel.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaDatatype.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaDocumentation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaElement.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaEnumerationFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaExternal.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaFractionDigitsFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaGroup.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaGroupBase.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaGroupRef.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaIdentityConstraint.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaImport.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaInclude.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaInference+InferenceOption.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaInference.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaInferenceException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaInfo.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaKey.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaKeyref.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaLengthFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMaxExclusiveFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMaxInclusiveFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMaxLengthFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMinExclusiveFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMinInclusiveFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaMinLengthFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaNotation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaNumericFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaObject.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaObjectCollection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaObjectEnumerator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaObjectTable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaParticle.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaPatternFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaRedefine.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSequence.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleContent.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleContentExtension.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleContentRestriction.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleType.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleTypeContent.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleTypeList.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleTypeRestriction.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaSimpleTypeUnion.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaTotalDigitsFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaType.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaUnique.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaValidationException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaValidator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaWhiteSpaceFacet.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlSchemaXPath.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Schema.XmlValueGetter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Advanced.SchemaImporterExtension.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Advanced.SchemaImporterExtensionCollection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.CodeExporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.CodeIdentifier.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.CodeIdentifiers.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.DateTimeSerializationSection+DateTimeSerializationMode.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.DateTimeSerializationSection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.RootedPathValidator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.SchemaImporterExtensionElement.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.SchemaImporterExtensionElementCollection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.SchemaImporterExtensionsSection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.SerializationSectionGroup.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.Configuration.XmlSerializerSection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.ImportContext.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.IXmlSerializable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.IXmlTextParser.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SchemaImporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapAttributeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapAttributeOverrides.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapAttributes.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapCodeExporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapElementAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapEnumAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapIgnoreAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapIncludeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapReflectionImporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapSchemaExporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapSchemaImporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapSchemaMember.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.SoapTypeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.UnreferencedObjectEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.UnreferencedObjectEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAnyAttributeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAnyElementAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAnyElementAttributes.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlArrayAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlArrayItemAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlArrayItemAttributes.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAttributeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAttributeEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAttributeEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAttributeOverrides.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlAttributes.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlChoiceIdentifierAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlCodeExporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlDeserializationEvents.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlElementAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlElementAttributes.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlElementEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlElementEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlEnumAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlIgnoreAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlIncludeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlMapping.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlMemberMapping.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlMembersMapping.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlNamespaceDeclarationsAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlNodeEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlNodeEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlReflectionImporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlReflectionMember.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlRootAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSchemaEnumerator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSchemaExporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSchemaImporter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSchemaProviderAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSchemas.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationCollectionFixupCallback.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationFixupCallback.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationGeneratedCode.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationReadCallback.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationReader.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationWriteCallback.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializationWriter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializer.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializerAssemblyAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializerFactory.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializerImplementation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializerNamespaces.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlSerializerVersionAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlTextAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlTypeAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Serialization.XmlTypeMapping.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlAttribute.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlAttributeCollection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlCDataSection.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlCharacterData.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlComment.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlConvert.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlDeclaration.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlDocument.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlDocumentFragment.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlDocumentType.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlElement.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlEntity.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlEntityReference.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlImplementation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlLinkedNode.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNamedNodeMap.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNamespaceManager.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNameTable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNode.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNodeChangedEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNodeChangedEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNodeList.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNodeReader.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlNotation.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlParserContext.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlProcessingInstruction.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlQualifiedName.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlReader.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlReaderSettings.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlResolver.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlSecureResolver.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlSignificantWhitespace.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlText.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlTextReader.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlTextWriter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlUrlResolver.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlValidatingReader.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlWhitespace.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlWriter.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XmlWriterSettings.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.IXPathNavigable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathDocument.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathExpression.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathItem.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathNavigator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.XPath.XPathNodeIterator.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.IXsltContextFunction.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.IXsltContextVariable.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XslCompiledTransform.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltArgumentList.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltCompileException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltContext.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltException.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltMessageEncounteredEventArgs.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltMessageEncounteredEventHandler.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XslTransform.datasource" />
+    <None Include="Properties\DataSources\System.Xml.Xsl.XsltSettings.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -214,9 +440,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Q9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Q10.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Q11.png" />
@@ -319,6 +542,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\查1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\报表.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病历1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\查询1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\待办1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\记录单1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\监测.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\流程1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\扫描2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\同意书1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\医嘱1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Q10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病历信息.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\功能2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病历信息1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\功能11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\读身份证1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\三证扫描1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\三证审核1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\指纹登记1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\流程2.png" />
+    <None Include="Resources\记录单2.png" />
+    <None Include="Resources\待办2.png" />
+    <None Include="Resources\病历2.png" />
+    <None Include="Resources\新增患者.png" />
+    <None Include="Resources\新增周期方案.png" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

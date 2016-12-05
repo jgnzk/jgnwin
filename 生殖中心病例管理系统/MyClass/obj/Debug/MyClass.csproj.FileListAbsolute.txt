@@ -1,0 +1,5 @@
+F:\新的\生殖中心病例管理系统\MyClass\bin\Debug\MyClass.dll
+F:\新的\生殖中心病例管理系统\MyClass\bin\Debug\MyClass.pdb
+F:\新的\生殖中心病例管理系统\MyClass\obj\Debug\MyClass.csprojResolveAssemblyReference.cache
+F:\新的\生殖中心病例管理系统\MyClass\obj\Debug\MyClass.dll
+F:\新的\生殖中心病例管理系统\MyClass\obj\Debug\MyClass.pdb

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(查询界面));
-            this.label1 = new System.Windows.Forms.Label();
+            this.名字_lab = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,8 +46,8 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.开始_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.结束_dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -65,16 +65,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // 名字_lab
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(88, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 14);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "名字：";
+            this.名字_lab.AutoSize = true;
+            this.名字_lab.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.名字_lab.ForeColor = System.Drawing.Color.Black;
+            this.名字_lab.Location = new System.Drawing.Point(88, 37);
+            this.名字_lab.Name = "名字_lab";
+            this.名字_lab.Size = new System.Drawing.Size(52, 14);
+            this.名字_lab.TabIndex = 0;
+            this.名字_lab.Text = "名字：";
             // 
             // label2
             // 
@@ -218,19 +218,19 @@
             this.textBox8.TabIndex = 1;
             this.textBox8.Text = "410323199603049574";
             // 
-            // dateTimePicker1
+            // 开始_dateTimePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(144, 80);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(128, 21);
-            this.dateTimePicker1.TabIndex = 4;
+            this.开始_dateTimePicker.Location = new System.Drawing.Point(144, 80);
+            this.开始_dateTimePicker.Name = "开始_dateTimePicker";
+            this.开始_dateTimePicker.Size = new System.Drawing.Size(128, 21);
+            this.开始_dateTimePicker.TabIndex = 4;
             // 
-            // dateTimePicker2
+            // 结束_dateTimePicker
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(343, 80);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(114, 21);
-            this.dateTimePicker2.TabIndex = 5;
+            this.结束_dateTimePicker.Location = new System.Drawing.Point(343, 80);
+            this.结束_dateTimePicker.Name = "结束_dateTimePicker";
+            this.结束_dateTimePicker.Size = new System.Drawing.Size(114, 21);
+            this.结束_dateTimePicker.TabIndex = 5;
             // 
             // button1
             // 
@@ -323,12 +323,12 @@
             // 
             // 查询界面
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.ClientSize = new System.Drawing.Size(514, 218);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.结束_dateTimePicker);
+            this.Controls.Add(this.开始_dateTimePicker);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -350,7 +350,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.名字_lab);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox7);
@@ -373,7 +373,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label 名字_lab;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -398,7 +398,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox jia;
         private System.Windows.Forms.PictureBox jian;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker 开始_dateTimePicker;
+        private System.Windows.Forms.DateTimePicker 结束_dateTimePicker;
     }
 }

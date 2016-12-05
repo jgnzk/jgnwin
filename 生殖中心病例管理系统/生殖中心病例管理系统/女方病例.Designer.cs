@@ -31,11 +31,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.初诊日期_dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.historyOfPresentIllness_textBox = new System.Windows.Forms.TextBox();
+            this.现病史_textBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.complain_TextBox = new System.Windows.Forms.TextBox();
+            this.主诉_TextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -130,20 +131,20 @@
             this.Appendicitis_comboBox = new System.Windows.Forms.ComboBox();
             this.Appendicitis_textBox = new System.Windows.Forms.TextBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.性传播疾病史_comboBox = new System.Windows.Forms.ComboBox();
             this.diseasesOfUrinarySystem_comboBox = new System.Windows.Forms.ComboBox();
-            this.kidneyDisease_comboBox = new System.Windows.Forms.ComboBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.肾脏疾病_comboBox = new System.Windows.Forms.ComboBox();
+            this.性传播疾病史_textBox = new System.Windows.Forms.TextBox();
             this.diseasesOfUrinarySystem_textBox = new System.Windows.Forms.TextBox();
-            this.kidneyDisease_textBox = new System.Windows.Forms.TextBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.tubercular_comboBox = new System.Windows.Forms.ComboBox();
-            this.CardiovascularDiseases_comboBox = new System.Windows.Forms.ComboBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.tubercular_textbox = new System.Windows.Forms.TextBox();
-            this.CardiovascularDiseases_textBox = new System.Windows.Forms.TextBox();
-            this.hepatitis_comboBox = new System.Windows.Forms.ComboBox();
-            this.hepatitis_textBox = new System.Windows.Forms.TextBox();
+            this.肾脏疾病_textBox = new System.Windows.Forms.TextBox();
+            this.盆腔炎_comboBox = new System.Windows.Forms.ComboBox();
+            this.结核_comboBox = new System.Windows.Forms.ComboBox();
+            this.心血管疾病_comboBox = new System.Windows.Forms.ComboBox();
+            this.盆腔炎_textBox = new System.Windows.Forms.TextBox();
+            this.结核_textbox = new System.Windows.Forms.TextBox();
+            this.心血管疾病_textBox = new System.Windows.Forms.TextBox();
+            this.肝炎_comboBox = new System.Windows.Forms.ComboBox();
+            this.肝炎_textBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.label92 = new System.Windows.Forms.Label();
@@ -451,7 +452,6 @@
             this.label154 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.label150 = new System.Windows.Forms.Label();
-            this.initialVisitTime_dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -502,13 +502,13 @@
             this.panel1.AutoScroll = true;
             this.panel1.AutoScrollMargin = new System.Drawing.Size(10, 10);
             this.panel1.AutoScrollMinSize = new System.Drawing.Size(10, 10);
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
-            this.panel1.Controls.Add(this.initialVisitTime_dateTimePicker);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
+            this.panel1.Controls.Add(this.初诊日期_dateTimePicker);
             this.panel1.Controls.Add(this.groupBox5);
-            this.panel1.Controls.Add(this.historyOfPresentIllness_textBox);
+            this.panel1.Controls.Add(this.现病史_textBox);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.complain_TextBox);
+            this.panel1.Controls.Add(this.主诉_TextBox);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.groupBox4);
@@ -521,6 +521,13 @@
             this.panel1.Size = new System.Drawing.Size(842, 416);
             this.panel1.TabIndex = 6;
             // 
+            // 初诊日期_dateTimePicker
+            // 
+            this.初诊日期_dateTimePicker.Location = new System.Drawing.Point(582, 11);
+            this.初诊日期_dateTimePicker.Name = "初诊日期_dateTimePicker";
+            this.初诊日期_dateTimePicker.Size = new System.Drawing.Size(147, 21);
+            this.初诊日期_dateTimePicker.TabIndex = 14;
+            // 
             // groupBox5
             // 
             this.groupBox5.Location = new System.Drawing.Point(51, 634);
@@ -530,13 +537,13 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "不孕不育病史";
             // 
-            // historyOfPresentIllness_textBox
+            // 现病史_textBox
             // 
-            this.historyOfPresentIllness_textBox.Location = new System.Drawing.Point(51, 49);
-            this.historyOfPresentIllness_textBox.Multiline = true;
-            this.historyOfPresentIllness_textBox.Name = "historyOfPresentIllness_textBox";
-            this.historyOfPresentIllness_textBox.Size = new System.Drawing.Size(678, 157);
-            this.historyOfPresentIllness_textBox.TabIndex = 12;
+            this.现病史_textBox.Location = new System.Drawing.Point(51, 49);
+            this.现病史_textBox.Multiline = true;
+            this.现病史_textBox.Name = "现病史_textBox";
+            this.现病史_textBox.Size = new System.Drawing.Size(678, 157);
+            this.现病史_textBox.TabIndex = 12;
             // 
             // button1
             // 
@@ -557,12 +564,12 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "现病史";
             // 
-            // complain_TextBox
+            // 主诉_TextBox
             // 
-            this.complain_TextBox.Location = new System.Drawing.Point(51, 11);
-            this.complain_TextBox.Name = "complain_TextBox";
-            this.complain_TextBox.Size = new System.Drawing.Size(443, 21);
-            this.complain_TextBox.TabIndex = 0;
+            this.主诉_TextBox.Location = new System.Drawing.Point(51, 11);
+            this.主诉_TextBox.Name = "主诉_TextBox";
+            this.主诉_TextBox.Size = new System.Drawing.Size(443, 21);
+            this.主诉_TextBox.TabIndex = 0;
             // 
             // label2
             // 
@@ -1374,20 +1381,20 @@
             this.groupBox1.Controls.Add(this.Appendicitis_comboBox);
             this.groupBox1.Controls.Add(this.Appendicitis_textBox);
             this.groupBox1.Controls.Add(this.comboBox11);
-            this.groupBox1.Controls.Add(this.comboBox9);
+            this.groupBox1.Controls.Add(this.性传播疾病史_comboBox);
             this.groupBox1.Controls.Add(this.diseasesOfUrinarySystem_comboBox);
-            this.groupBox1.Controls.Add(this.kidneyDisease_comboBox);
-            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.肾脏疾病_comboBox);
+            this.groupBox1.Controls.Add(this.性传播疾病史_textBox);
             this.groupBox1.Controls.Add(this.diseasesOfUrinarySystem_textBox);
-            this.groupBox1.Controls.Add(this.kidneyDisease_textBox);
-            this.groupBox1.Controls.Add(this.comboBox8);
-            this.groupBox1.Controls.Add(this.tubercular_comboBox);
-            this.groupBox1.Controls.Add(this.CardiovascularDiseases_comboBox);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.tubercular_textbox);
-            this.groupBox1.Controls.Add(this.CardiovascularDiseases_textBox);
-            this.groupBox1.Controls.Add(this.hepatitis_comboBox);
-            this.groupBox1.Controls.Add(this.hepatitis_textBox);
+            this.groupBox1.Controls.Add(this.肾脏疾病_textBox);
+            this.groupBox1.Controls.Add(this.盆腔炎_comboBox);
+            this.groupBox1.Controls.Add(this.结核_comboBox);
+            this.groupBox1.Controls.Add(this.心血管疾病_comboBox);
+            this.groupBox1.Controls.Add(this.盆腔炎_textBox);
+            this.groupBox1.Controls.Add(this.结核_textbox);
+            this.groupBox1.Controls.Add(this.心血管疾病_textBox);
+            this.groupBox1.Controls.Add(this.肝炎_comboBox);
+            this.groupBox1.Controls.Add(this.肝炎_textBox);
             this.groupBox1.Location = new System.Drawing.Point(51, 212);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(678, 106);
@@ -1530,13 +1537,13 @@
             this.comboBox11.TabIndex = 1;
             this.comboBox11.Text = "无";
             // 
-            // comboBox9
+            // 性传播疾病史_comboBox
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(294, 60);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(86, 20);
-            this.comboBox9.TabIndex = 1;
+            this.性传播疾病史_comboBox.FormattingEnabled = true;
+            this.性传播疾病史_comboBox.Location = new System.Drawing.Point(294, 60);
+            this.性传播疾病史_comboBox.Name = "性传播疾病史_comboBox";
+            this.性传播疾病史_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.性传播疾病史_comboBox.TabIndex = 1;
             // 
             // diseasesOfUrinarySystem_comboBox
             // 
@@ -1546,22 +1553,22 @@
             this.diseasesOfUrinarySystem_comboBox.Size = new System.Drawing.Size(86, 20);
             this.diseasesOfUrinarySystem_comboBox.TabIndex = 1;
             // 
-            // kidneyDisease_comboBox
+            // 肾脏疾病_comboBox
             // 
-            this.kidneyDisease_comboBox.FormattingEnabled = true;
-            this.kidneyDisease_comboBox.Location = new System.Drawing.Point(294, 40);
-            this.kidneyDisease_comboBox.Name = "kidneyDisease_comboBox";
-            this.kidneyDisease_comboBox.Size = new System.Drawing.Size(86, 20);
-            this.kidneyDisease_comboBox.TabIndex = 1;
+            this.肾脏疾病_comboBox.FormattingEnabled = true;
+            this.肾脏疾病_comboBox.Location = new System.Drawing.Point(294, 40);
+            this.肾脏疾病_comboBox.Name = "肾脏疾病_comboBox";
+            this.肾脏疾病_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.肾脏疾病_comboBox.TabIndex = 1;
             // 
-            // textBox10
+            // 性传播疾病史_textBox
             // 
-            this.textBox10.Location = new System.Drawing.Point(274, 59);
-            this.textBox10.MaxLength = 1;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(20, 21);
-            this.textBox10.TabIndex = 0;
-            this.textBox10.Text = "无";
+            this.性传播疾病史_textBox.Location = new System.Drawing.Point(274, 59);
+            this.性传播疾病史_textBox.MaxLength = 1;
+            this.性传播疾病史_textBox.Name = "性传播疾病史_textBox";
+            this.性传播疾病史_textBox.Size = new System.Drawing.Size(20, 21);
+            this.性传播疾病史_textBox.TabIndex = 0;
+            this.性传播疾病史_textBox.Text = "无";
             // 
             // diseasesOfUrinarySystem_textBox
             // 
@@ -1572,91 +1579,91 @@
             this.diseasesOfUrinarySystem_textBox.TabIndex = 0;
             this.diseasesOfUrinarySystem_textBox.Text = "无";
             // 
-            // kidneyDisease_textBox
+            // 肾脏疾病_textBox
             // 
-            this.kidneyDisease_textBox.Location = new System.Drawing.Point(274, 39);
-            this.kidneyDisease_textBox.MaxLength = 1;
-            this.kidneyDisease_textBox.Name = "kidneyDisease_textBox";
-            this.kidneyDisease_textBox.Size = new System.Drawing.Size(20, 21);
-            this.kidneyDisease_textBox.TabIndex = 0;
-            this.kidneyDisease_textBox.Text = "无";
+            this.肾脏疾病_textBox.Location = new System.Drawing.Point(274, 39);
+            this.肾脏疾病_textBox.MaxLength = 1;
+            this.肾脏疾病_textBox.Name = "肾脏疾病_textBox";
+            this.肾脏疾病_textBox.Size = new System.Drawing.Size(20, 21);
+            this.肾脏疾病_textBox.TabIndex = 0;
+            this.肾脏疾病_textBox.Text = "无";
             // 
-            // comboBox8
+            // 盆腔炎_comboBox
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(89, 60);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(86, 20);
-            this.comboBox8.TabIndex = 1;
+            this.盆腔炎_comboBox.FormattingEnabled = true;
+            this.盆腔炎_comboBox.Location = new System.Drawing.Point(89, 60);
+            this.盆腔炎_comboBox.Name = "盆腔炎_comboBox";
+            this.盆腔炎_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.盆腔炎_comboBox.TabIndex = 1;
             // 
-            // tubercular_comboBox
+            // 结核_comboBox
             // 
-            this.tubercular_comboBox.FormattingEnabled = true;
-            this.tubercular_comboBox.Location = new System.Drawing.Point(294, 20);
-            this.tubercular_comboBox.Name = "tubercular_comboBox";
-            this.tubercular_comboBox.Size = new System.Drawing.Size(86, 20);
-            this.tubercular_comboBox.TabIndex = 1;
+            this.结核_comboBox.FormattingEnabled = true;
+            this.结核_comboBox.Location = new System.Drawing.Point(294, 20);
+            this.结核_comboBox.Name = "结核_comboBox";
+            this.结核_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.结核_comboBox.TabIndex = 1;
             // 
-            // CardiovascularDiseases_comboBox
+            // 心血管疾病_comboBox
             // 
-            this.CardiovascularDiseases_comboBox.FormattingEnabled = true;
-            this.CardiovascularDiseases_comboBox.Location = new System.Drawing.Point(89, 40);
-            this.CardiovascularDiseases_comboBox.Name = "CardiovascularDiseases_comboBox";
-            this.CardiovascularDiseases_comboBox.Size = new System.Drawing.Size(86, 20);
-            this.CardiovascularDiseases_comboBox.TabIndex = 1;
+            this.心血管疾病_comboBox.FormattingEnabled = true;
+            this.心血管疾病_comboBox.Location = new System.Drawing.Point(89, 40);
+            this.心血管疾病_comboBox.Name = "心血管疾病_comboBox";
+            this.心血管疾病_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.心血管疾病_comboBox.TabIndex = 1;
             // 
-            // textBox9
+            // 盆腔炎_textBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(69, 59);
-            this.textBox9.MaxLength = 1;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(20, 21);
-            this.textBox9.TabIndex = 0;
-            this.textBox9.Text = "无";
+            this.盆腔炎_textBox.Location = new System.Drawing.Point(69, 59);
+            this.盆腔炎_textBox.MaxLength = 1;
+            this.盆腔炎_textBox.Name = "盆腔炎_textBox";
+            this.盆腔炎_textBox.Size = new System.Drawing.Size(20, 21);
+            this.盆腔炎_textBox.TabIndex = 0;
+            this.盆腔炎_textBox.Text = "无";
             // 
-            // tubercular_textbox
+            // 结核_textbox
             // 
-            this.tubercular_textbox.Location = new System.Drawing.Point(274, 19);
-            this.tubercular_textbox.MaxLength = 1;
-            this.tubercular_textbox.Name = "tubercular_textbox";
-            this.tubercular_textbox.Size = new System.Drawing.Size(20, 21);
-            this.tubercular_textbox.TabIndex = 0;
-            this.tubercular_textbox.Text = "无";
-            this.tubercular_textbox.Click += new System.EventHandler(this.textBox4_Click);
+            this.结核_textbox.Location = new System.Drawing.Point(274, 19);
+            this.结核_textbox.MaxLength = 1;
+            this.结核_textbox.Name = "结核_textbox";
+            this.结核_textbox.Size = new System.Drawing.Size(20, 21);
+            this.结核_textbox.TabIndex = 0;
+            this.结核_textbox.Text = "无";
+            this.结核_textbox.Click += new System.EventHandler(this.textBox4_Click);
             // 
-            // CardiovascularDiseases_textBox
+            // 心血管疾病_textBox
             // 
-            this.CardiovascularDiseases_textBox.Location = new System.Drawing.Point(69, 39);
-            this.CardiovascularDiseases_textBox.MaxLength = 1;
-            this.CardiovascularDiseases_textBox.Name = "CardiovascularDiseases_textBox";
-            this.CardiovascularDiseases_textBox.Size = new System.Drawing.Size(20, 21);
-            this.CardiovascularDiseases_textBox.TabIndex = 0;
-            this.CardiovascularDiseases_textBox.Text = "无";
+            this.心血管疾病_textBox.Location = new System.Drawing.Point(69, 39);
+            this.心血管疾病_textBox.MaxLength = 1;
+            this.心血管疾病_textBox.Name = "心血管疾病_textBox";
+            this.心血管疾病_textBox.Size = new System.Drawing.Size(20, 21);
+            this.心血管疾病_textBox.TabIndex = 0;
+            this.心血管疾病_textBox.Text = "无";
             // 
-            // hepatitis_comboBox
+            // 肝炎_comboBox
             // 
-            this.hepatitis_comboBox.FormattingEnabled = true;
-            this.hepatitis_comboBox.Location = new System.Drawing.Point(89, 20);
-            this.hepatitis_comboBox.Name = "hepatitis_comboBox";
-            this.hepatitis_comboBox.Size = new System.Drawing.Size(86, 20);
-            this.hepatitis_comboBox.TabIndex = 2;
+            this.肝炎_comboBox.FormattingEnabled = true;
+            this.肝炎_comboBox.Location = new System.Drawing.Point(89, 20);
+            this.肝炎_comboBox.Name = "肝炎_comboBox";
+            this.肝炎_comboBox.Size = new System.Drawing.Size(86, 20);
+            this.肝炎_comboBox.TabIndex = 2;
             // 
-            // hepatitis_textBox
+            // 肝炎_textBox
             // 
-            this.hepatitis_textBox.Location = new System.Drawing.Point(69, 19);
-            this.hepatitis_textBox.MaxLength = 1;
-            this.hepatitis_textBox.Name = "hepatitis_textBox";
-            this.hepatitis_textBox.Size = new System.Drawing.Size(20, 21);
-            this.hepatitis_textBox.TabIndex = 0;
-            this.hepatitis_textBox.Text = "无";
-            this.hepatitis_textBox.Click += new System.EventHandler(this.textBox3_Click);
+            this.肝炎_textBox.Location = new System.Drawing.Point(69, 19);
+            this.肝炎_textBox.MaxLength = 1;
+            this.肝炎_textBox.Name = "肝炎_textBox";
+            this.肝炎_textBox.Size = new System.Drawing.Size(20, 21);
+            this.肝炎_textBox.TabIndex = 0;
+            this.肝炎_textBox.Text = "无";
+            this.肝炎_textBox.Click += new System.EventHandler(this.textBox3_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
             this.tabPage2.AutoScrollMargin = new System.Drawing.Size(33, 33);
             this.tabPage2.AutoScrollMinSize = new System.Drawing.Size(44, 44);
-            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.tabPage2.Controls.Add(this.groupBox8);
             this.tabPage2.Controls.Add(this.groupBox7);
             this.tabPage2.Controls.Add(this.groupBox6);
@@ -2936,7 +2943,7 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.AutoScrollMargin = new System.Drawing.Size(33, 33);
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.tabPage3.Controls.Add(this.panel2);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
@@ -3889,7 +3896,7 @@
             this.tabPage4.AutoScroll = true;
             this.tabPage4.AutoScrollMargin = new System.Drawing.Size(33, 33);
             this.tabPage4.AutoScrollMinSize = new System.Drawing.Size(33, 33);
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.tabPage4.Controls.Add(this.comboBox141);
             this.tabPage4.Controls.Add(this.comboBox140);
             this.tabPage4.Controls.Add(this.label153);
@@ -4493,7 +4500,7 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.tabPage5.Controls.Add(this.label162);
             this.tabPage5.Controls.Add(this.textBox42);
             this.tabPage5.Controls.Add(this.comboBox147);
@@ -4690,17 +4697,11 @@
             this.label150.TabIndex = 12;
             this.label150.Text = "拟行用药方案";
             // 
-            // initialVisitTime_dateTimePicker
-            // 
-            this.initialVisitTime_dateTimePicker.Location = new System.Drawing.Point(582, 11);
-            this.initialVisitTime_dateTimePicker.Name = "initialVisitTime_dateTimePicker";
-            this.initialVisitTime_dateTimePicker.Size = new System.Drawing.Size(147, 21);
-            this.initialVisitTime_dateTimePicker.TabIndex = 14;
-            // 
             // 女方病例
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(231)))), ((int)(((byte)(239)))));
             this.ClientSize = new System.Drawing.Size(856, 450);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.tabControl1);
@@ -4754,11 +4755,11 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox hepatitis_textBox;
-        private System.Windows.Forms.TextBox historyOfPresentIllness_textBox;
+        private System.Windows.Forms.TextBox 肝炎_textBox;
+        private System.Windows.Forms.TextBox 现病史_textBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox complain_TextBox;
+        private System.Windows.Forms.TextBox 主诉_TextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;
@@ -4817,19 +4818,19 @@
         private System.Windows.Forms.ComboBox Appendicitis_comboBox;
         private System.Windows.Forms.TextBox Appendicitis_textBox;
         private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox 性传播疾病史_comboBox;
         private System.Windows.Forms.ComboBox diseasesOfUrinarySystem_comboBox;
-        private System.Windows.Forms.ComboBox kidneyDisease_comboBox;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.ComboBox 肾脏疾病_comboBox;
+        private System.Windows.Forms.TextBox 性传播疾病史_textBox;
         private System.Windows.Forms.TextBox diseasesOfUrinarySystem_textBox;
-        private System.Windows.Forms.TextBox kidneyDisease_textBox;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox tubercular_comboBox;
-        private System.Windows.Forms.ComboBox CardiovascularDiseases_comboBox;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox tubercular_textbox;
-        private System.Windows.Forms.TextBox CardiovascularDiseases_textBox;
-        private System.Windows.Forms.ComboBox hepatitis_comboBox;
+        private System.Windows.Forms.TextBox 肾脏疾病_textBox;
+        private System.Windows.Forms.ComboBox 盆腔炎_comboBox;
+        private System.Windows.Forms.ComboBox 结核_comboBox;
+        private System.Windows.Forms.ComboBox 心血管疾病_comboBox;
+        private System.Windows.Forms.TextBox 盆腔炎_textBox;
+        private System.Windows.Forms.TextBox 结核_textbox;
+        private System.Windows.Forms.TextBox 心血管疾病_textBox;
+        private System.Windows.Forms.ComboBox 肝炎_comboBox;
         private System.Windows.Forms.ComboBox comboBox39;
         private System.Windows.Forms.ComboBox comboBox35;
         private System.Windows.Forms.ComboBox comboBox38;
@@ -5168,7 +5169,7 @@
         private System.Windows.Forms.ComboBox comboBox142;
         private System.Windows.Forms.Label label154;
         private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.DateTimePicker initialVisitTime_dateTimePicker;
+        private System.Windows.Forms.DateTimePicker 初诊日期_dateTimePicker;
 
     }
 }

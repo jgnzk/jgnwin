@@ -18,14 +18,14 @@ namespace 生殖中心病例管理系统
 
         private void textBox3_Click(object sender, EventArgs e)
         {
-            hepatitis_textBox.Height = 50;
-            if (hepatitis_textBox .Text =="无")//实现点击切换有无
+            肝炎_textBox.Height = 50;
+            if (肝炎_textBox .Text =="无")//实现点击切换有无
             {
-                hepatitis_textBox.Text = "有";
+                肝炎_textBox.Text = "有";
             }
             else
             {
-                hepatitis_textBox.Text = "无";
+                肝炎_textBox.Text = "无";
             }
            
 
@@ -33,7 +33,7 @@ namespace 生殖中心病例管理系统
 
         private void textBox4_Click(object sender, EventArgs e)
         {
-            tubercular_textbox.Text = "有";
+            结核_textbox.Text = "有";
         }
 
         private void 女方病例_Load(object sender, EventArgs e)
